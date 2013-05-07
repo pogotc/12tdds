@@ -1,7 +1,8 @@
 {
     "autoload": {
         "psr-0": {
-        	"Day01": "src/"
+        	"Day01": "src/",
+        	"Day02": "src/"
        	}
     }
 }

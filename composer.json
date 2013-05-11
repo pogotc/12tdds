@@ -7,7 +7,9 @@
         	"Day04": "src/",
         	"Day05": "src/",
         	"Day06": "src/",
-        	"Day07": "src/"
+        	"Day07": "src/",
+            "Day08": "src/",
+            "Day09": "src/"
        	}
     }
 }

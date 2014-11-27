@@ -4,6 +4,9 @@ namespace Day02;
 
 class NumberNameGenerator {
 
+	/**
+	 * @param double $number
+	 */
 	public function spell($number){
 		if(!$number){
 			return;
@@ -77,6 +80,11 @@ class NumberNameGenerator {
 		}
 	}
 
+	/**
+	 * @param integer $divisor
+	 * @param string $label
+	 * @param string $remainderSeparator
+	 */
 	protected function breakdownNumber($val, $divisor, $label, $remainderSeparator){
 		$tval = floor($val / $divisor);
 		$remainder = $val - ($tval * $divisor);

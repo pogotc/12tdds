@@ -13,6 +13,9 @@ class MineFieldDetector {
 		return $result;
 	}
 
+	/**
+	 * @param integer $y
+	 */
 	protected function checkRow($grid, $y){
 		$result = array();
 		for($x = 0; $x < count($grid[$y]); $x++){
@@ -21,6 +24,9 @@ class MineFieldDetector {
 		return $result;
 	}
 
+	/**
+	 * @param integer $x
+	 */
 	protected function checkCell($grid, $x, $y)
 	{
 		$rowStart = max(0, $y - 1);
